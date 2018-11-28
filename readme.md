@@ -63,3 +63,9 @@ vendor/bin/behat --dry-run --append-snippets
 
 > use TDD approach to update context class
 
+## implementing/refactoring the feature
+
+> after implementing the feature then run :
+```
+vendor/bin/behat
+```

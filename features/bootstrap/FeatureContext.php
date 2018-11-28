@@ -50,9 +50,9 @@ class FeatureContext implements Context
     }
 
     /**
-     * @Then I should have :arg1 product in the basket
+     * @Then /I should have ([\d]+) product([s]?) in the basket/
      */
-    public function iShouldHaveProductInTheBasket($count)
+    public function iShouldHaveProducstInTheBasket($count)
     {
         \PHPUnit\Framework\Assert::assertCount(
             intval($count),
@@ -69,13 +69,5 @@ class FeatureContext implements Context
             floatval($price),
             $this->basket->getTotalPrice()
         );
-    }
-
-    /**
-     * @Then I should have :arg1 products in the basket
-     */
-    public function iShouldHaveProductsInTheBasket($arg1)
-    {
-        throw new PendingException();
     }
 }
