@@ -1,6 +1,6 @@
 {
     "name": "harryosmar/bdd-behat-tdd",
-    "description": "simple implementatation of bdd using behat tool",
+    "description": "simple implementation of bdd using behat tool",
     "type": "project",
     "authors": [
         {
@@ -8,9 +8,14 @@
             "email": "harryosmarsitohang@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
     "require-dev": {
         "behat/behat": "^3.5",
         "phpunit/phpunit": "^7.4"
+    },
+    "scripts": {
+        "test": "./vendor/bin/behat"
     }
 }

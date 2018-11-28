@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/harryosmar/bdd-behat-tdd.svg?branch=master)](https://travis-ci.org/harryosmar/bdd-behat-tdd)
+
 # Quick Start
 
 ## installation
@@ -69,3 +71,7 @@ vendor/bin/behat --dry-run --append-snippets
 ```
 vendor/bin/behat
 ```
+
+## Links
+
+- http://behat.org/en/latest/quick_start.html#development
