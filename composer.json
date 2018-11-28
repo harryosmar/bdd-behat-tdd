@@ -1,5 +1,5 @@
 {
-    "name": "harryosmar/bdd-behat",
+    "name": "harryosmar/bdd-behat-tdd",
     "description": "simple implementatation of bdd using behat tool",
     "type": "project",
     "authors": [
