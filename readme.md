@@ -59,3 +59,7 @@ vendor/bin/behat --init
 vendor/bin/behat --dry-run --append-snippets
 ```
 
+### automating steps
+
+> use TDD approach to update context class
+
