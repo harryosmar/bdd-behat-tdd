@@ -18,7 +18,7 @@ jdk: oraclejdk8
 
 install:
 # Run Selenium with Chrome driver, and attempt to suppress output
-- composer selenium-start-silent
+- composer selenium-start >/dev/null 2>&1 &
 - composer install
 # Start PHP server in public directory so requests route correctly and supress output
 - php -S 127.0.0.1:8000 -t public >/dev/null 2>&1 &
