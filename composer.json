@@ -22,7 +22,8 @@
     "scripts": {
         "test": "bin/behat",
         "behat-init": " bin/behat --init",
-        "selenium-start": "selenium/start.sh"
+        "selenium-start": "selenium/start.sh",
+        "selenium-start-silent": "selenium/start-silent.sh"
     },
     "config": {
         "bin-dir": "bin/"
