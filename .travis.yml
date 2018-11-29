@@ -1,3 +1,9 @@
+dist: trusty
+
+# Add Google Chrome to installation
+addons:
+  chrome: stable
+
 language: php
 
 sudo: false
@@ -7,8 +13,15 @@ matrix:
   - php: 7.1
   - php: 7.2
 
+# Make sure Java 8 is installed
+jdk: oraclejdk8
+
 install:
 - composer install
+# Start PHP server in public directory so requests route correctly and supress output
+- php -S 127.0.0.1:8000 -t public
+# Sleep to make sure PHP server has started
+- sleep 3
 
 script:
 - composer test

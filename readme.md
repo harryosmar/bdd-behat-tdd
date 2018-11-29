@@ -75,3 +75,6 @@ vendor/bin/behat
 ## Links
 
 - http://behat.org/en/latest/quick_start.html#development
+- http://docs.behat.org/en/v2.5/cookbook/behat_and_mink.html#test-in-browser-selenium2-session
+- https://libraries.io/npm/selenium-standalone/2.39.0-2.7.0
+- https://github.com/RobDWaller/behat-selenium-chrome
