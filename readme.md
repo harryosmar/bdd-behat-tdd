@@ -72,6 +72,11 @@ vendor/bin/behat --dry-run --append-snippets
 vendor/bin/behat
 ```
 
+### Start web server
+```
+php -S 127.0.0.1:8000
+```
+
 ## Links
 
 - http://behat.org/en/latest/quick_start.html#development

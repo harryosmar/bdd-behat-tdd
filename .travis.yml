@@ -19,7 +19,7 @@ jdk: oraclejdk8
 install:
 - composer install
 # Start PHP server in public directory so requests route correctly and supress output
-- php -S 127.0.0.1:8000 -t public
+- php -S 127.0.0.1:8000 -t public >/dev/null 2>&1 &
 # Sleep to make sure PHP server has started
 - sleep 3
 
